@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* common styles */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 1440px;
+    height: 2000px;
+     padding-left: 180px;
+     padding-right: 225px; 
+      margin-bottom: 43px;
+    margin-top: 35px;
+}
+
+/* ---------
+Menu styles
+    --------  */
+
+   main{
+    width: 1440px;
+    height: 677px;
+     background: #2D25A0;
+    color: whitesmoke;
+    
+} 
+main nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+ main nav a{
+     text-decoration: none;
+     font-size: 1em;
+     margin-left: 36px;
+     color: whitesmoke;
+ }
+ .half-width h1{
+     font-size: 64px;
+ }
+ .top-banner{
+     display: flex;
+     padding-left: 156px;
+ }
+ .foodball:hover, .foodball-player{
+     transform: rotate(30deg);
+     transition: transform 2s ease-in-out;
+     
+ }
+ 
+/* ----------
+top-players
+----------- */
+.top-players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    align-items: center;
+}
+.players{
+    width: 335px;
+    height: 461px;
+    padding: 15px;
+    background: #FFFFFF;
+}
+.player img{
+    width: 300px;
+    height: 256px;
+    margin: 16px,0px;
+}
+  .player-name{
+    font-size: 28px;
+    color: #18191F;
+}
+ .players-detial p{
+    font-size: 16px;
+    color: #6C6C6C;
+}
+   /* copa-toffe styles */
+   .top-blogs{
+       width: 1440px;
+       height: 750px;
+       margin-top: 165px;
+       margin-bottom: 158px;
+   }
+   .copa-history{
+      
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-row-gap: 69px;
+       padding: 156px;
+   }
+   .history{
+       width: 466px;
+       height: 309px;
+   }
+   .history h1{
+       font-size: 30px;
+   }
+   .toffe img{
+       width: 567px;
+       height: 427px;
+   }
+   .link-button{
+       width: 192px;
+       height: 44px;
+       padding: 10px,24px,10px,24px;
+       background: #E02C6D;
+   }
+
+   /* ----------
+        copy-right styles
+              ------------- */
+            
+              .ending-part{
+                  width: 483.87px;
+                  height: 213px;
+                  text-align: center;
+                  
+                  
+              }
+              nav{
+                 text-align: center;
+
+              }
+              nav img{
+                width: 100%;
+                  /* width: 483.87px;
+                  height: 110px; */
+              }
+              nav a .icons{
+
+                font-size: 2em;
+                margin-left: 14px;
+                  /* width: 170px;
+                  height: 32px; */
+                 display: flex; 
+                justify-content: space-between;  
+              }
+           
